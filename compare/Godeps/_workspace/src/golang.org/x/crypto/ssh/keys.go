@@ -295,7 +295,7 @@ func (r *dsaPublicKey) Type() string {
 	return "ssh-dss"
 }
 
-// parseDSA parses an DSA key according to RFC 4253, section 6.6.
+// parseDSA parses a DSA key according to RFC 4253, section 6.6.
 func parseDSA(in []byte) (out PublicKey, rest []byte, err error) {
 	var w struct {
 		P, Q, G, Y *big.Int

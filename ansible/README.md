@@ -123,7 +123,7 @@ The capability allows the apiserver to listen on `443` port.
 In a case of `localBuild` and `github-release`, the capability is not set.
 In order for apiserver to listen on a secure port, change the port (see `kube_master_api_port` under `roles/kubernetes/defaults/main.yml`). For instance to listen on `6443`.
 
-In order to apply the `distribution-rpm` type, location of an rpm must be specified.
+In order to apply the `distribution-rpm` type, location of a rpm must be specified.
 See `kube_rpm_url_base` and `kube_rpm_url_sufix` variables under `roles/kubernetes/defaults/main.yml`.
 
 ### Network Service

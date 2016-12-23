@@ -53,7 +53,7 @@ spec:
         ports:
         - containerPort: 8080
 ---
-# This is the Ingress resource that creates a HTTP Loadbalancer configured
+# This is the Ingress resource that creates an HTTP Loadbalancer configured
 # according to the Ingress rules.
 apiVersion: extensions/v1beta1
 kind: Ingress
